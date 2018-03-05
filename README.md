@@ -1,15 +1,18 @@
-# ece470
-Robot Project
+# Semester Robot Simulation Project
+ECE 470: Introduction to Robotics
+Utsav Kawrani
+Molly Sturgis
+5 March 2018
 
-One Paragraph of project description goes here
+The overall goal of this semester project is to simulate a robot doing a task. For our team's project, we are simulating the filling of a pill organizer with medications. This specific READ ME file covers the installation of a robot simulation software (V-REP) and executing a basic scene where the robot articulates each joint.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+There are a few prerequisite knowledge and programs that will be required in order to accomplish the required steps. 
 
 ```
 Give examples
