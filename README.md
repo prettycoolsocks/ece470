@@ -2,7 +2,9 @@
 ECE 470: Introduction to Robotics
 
 Utsav Kawrani
+
 Molly Sturgis
+
 5 March 2018
 
 The overall goal of this semester project is to simulate a robot doing a task. For our team's project, we are simulating the filling of a pill organizer with medications. This specific READ ME file covers the installation of a robot simulation software (V-REP) and executing a basic scene where the robot articulates each joint.
