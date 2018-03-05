@@ -30,7 +30,7 @@ This is a ste-by-step guide to installing and running our team's example scene.
 Step 1. Install V-REP
 
 ```
-You can find the download [here](http://www.coppeliarobotics.com/downloads.html). Then chose the appropriate operating system.
+You can find the download at (http://www.coppeliarobotics.com/downloads.html). Then chose the appropriate operating system.
 ```
 
 Step 2. Follow Prompted Instructions for Installation and Set-Up of V-REP
@@ -46,7 +46,7 @@ Download our team's scene into this folder.
 In this folder, there are three other files which must also be included. 
 *v-rep.py - located: vrep/programming/remoteApiBindings/python/python/vrep.py
 *vrepConst.py - located: vrep/programming/remoteApiBindings/python/python/vrepConst.py
-*remoteApi.dylib -located: vrep/programming/remoteApiBindings/lib/lib/remoteApi.dylib
+*remoteApi.dylib -located: vrep/programming/remoteApiBindings/lib/lib/remoteApi.dylib, this depends on your operating system, follow the file system for your operating system
 ```
 
 
