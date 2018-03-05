@@ -12,80 +12,62 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-There are a few prerequisite knowledge and programs that will be required in order to accomplish the required steps. 
+There are a few prerequisite knowledge and programs that will be required in order to accomplish the required steps. Our code which interacts with V-REP is python. Note, these are directions and prerequisites for a windows operating system. 
 
 ```
-Give examples
+Python
+Editing program such as Sublime or Spyder if editing program is desired
+Anaconda Prompt
 ```
 
-### Installing
+### Installing & Downloading
 
-A step by step series of examples that tell you have to get a development env running
+This is a ste-by-step guide to installing and running our team's example scene. 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Step 1. Install V-REP
 
 ```
-until finished
+You can find the download [here](http://www.coppeliarobotics.com/downloads.html). Then chose the appropriate operating system.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Step 2. Follow Prompted Instructions for Installation and Set-Up of V-REP
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Step 3. Organize and Set-Up Folders and Files
 ```
-Give an example
-```
+This will enable more seemless working later. First, create a folder for this project, labelling it whatever fills your heart with joy. 
 
-### And coding style tests
+Download our team's source code into this folder. 
 
-Explain what these tests test and why
+Download our team's scene into this folder.
 
-```
-Give an example
+In this folder, there are three other files which must also be included. 
+*v-rep.py - located: vrep/programming/remoteApiBindings/python/python/vrep.py
+*vrepConst.py - located: vrep/programming/remoteApiBindings/python/python/vrepConst.py
+*remoteApi.dylib -located: vrep/programming/remoteApiBindings/lib/lib/remoteApi.dylib
 ```
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+## Running our Simulation
 
-## Built With
+Step 1. Launch V-REP
+```
+This can be done by terminal via launching the program directly.
+```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Step 2. Load Our Scene
+```
+Go to the file menu, then "Open scene..." then navigate to the saved scene provided. 
+```
+Step 3. Run the Python Code
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Step 4. Watch the Magic
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Utsav Kawrani** 
+* **Molly Sturgis**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Thank you to moms, specifically ours
